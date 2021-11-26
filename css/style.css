@@ -1,0 +1,24 @@
+.photo {
+    border-radius: 3%;
+    background-color: #CFCFCF;
+    transform-style: preserve-3d;
+}
+
+.photo img {
+    transform: translate3d(0, 0, 0);
+    transition: .3s;
+}
+
+.photo:hover img {
+    transform: translate3d(0, 0, 60px) scale(1.3);
+}
+
+/* Lovi */
+#lovi .photo:hover img {
+    transform: translate3d(0, 0, 60px) scale(1.2);
+}
+
+/* Kazuma */
+#kazuma .photo:hover img {
+    transform: translate3d(0, 0, 60px) scale(1.1);
+}
